@@ -19,4 +19,5 @@ from . import vews
 
 urlpatterns = [
     path('', vews.home),
+    path('reverse/', vews.reverse)
 ]
